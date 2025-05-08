@@ -25,10 +25,12 @@ This is a simple RESTful API built with Kotlin and Spring Boot that models a pro
 ## 🔧 Running the App
 
 Make sure you have Java 17+ and Gradle installed.
+
 ```
-``````
+
 ./gradlew bootRun
 ```
+
 App runs at: http://localhost:8080
 
 🔌 API Endpoints
