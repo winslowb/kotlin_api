@@ -26,7 +26,7 @@ This is a simple RESTful API built with Kotlin and Spring Boot that models a pro
 
 Make sure you have Java 17+ and Gradle installed.
 
-```bash
+bash
 ./gradlew bootRun
 App runs at: http://localhost:8080
 
