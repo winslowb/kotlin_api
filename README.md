@@ -36,9 +36,6 @@ GET /categories – List all categories
 
 POST /categories – Create a new category
 
-bash
-Copy
-Edit
 curl -X POST http://localhost:8080/categories \
   -H "Content-Type: application/json" \
   -d '{"name": "Engineering"}'
@@ -47,9 +44,6 @@ GET /products – List all products
 
 POST /products – Create a new product (include a category)
 
-bash
-Copy
-Edit
 curl -X POST http://localhost:8080/products \
   -H "Content-Type: application/json" \
   -d '{"name": "Rocket Shoes", "price": 129.99, "category": {"id": 1}}'
