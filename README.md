@@ -25,9 +25,7 @@ This is a simple RESTful API built with Kotlin and Spring Boot that models a pro
 ## 🔧 Running the App
 
 Make sure you have Java 17+ and Gradle installed.
-
 ```
-
 ./gradlew bootRun
 ```
 
@@ -38,18 +36,20 @@ Categories
 GET /categories – List all categories
 
 POST /categories – Create a new category
-
+```
 curl -X POST http://localhost:8080/categories \
   -H "Content-Type: application/json" \
   -d '{"name": "Engineering"}'
+```
 Products
 GET /products – List all products
 
 POST /products – Create a new product (include a category)
-
+```
 curl -X POST http://localhost:8080/products \
   -H "Content-Type: application/json" \
   -d '{"name": "Rocket Shoes", "price": 129.99, "category": {"id": 1}}'
+```
 🤓 Tech Stack
 Kotlin
 
